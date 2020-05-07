@@ -1847,6 +1847,24 @@ pre code {
 
 /* Section/Article */
 
+.page-section {
+  color: #10015a;
+}
+
+.project-listing {
+  color: #1b00a0;
+}
+
+.am-resume {
+  color: #1b00a0;
+  font-size: 24px;
+}
+
+.am-resume:hover {
+  border-bottom-color: transparent;
+  color: #2501d6 !important;
+}
+
 section.special,
 article.special {
   text-align: center;
@@ -2159,7 +2177,7 @@ input[type="radio"] + label:before {
   top: 0;
   left: 0;
   width: 100%;
-  height: 102%;
+  height: 100%;
 }
 
 .image[data-position="top left"] img {
@@ -2533,6 +2551,21 @@ ul.feature-icons span {
   color: #2501d6;
 }
 
+.langs-b {
+  color: #10015a;
+}
+
+.libs-b {
+  color: #140175;
+}
+
+.cools-b {
+  color: #1b00a0;
+}
+.tools-b {
+  color: #2501d6;
+}
+
 /* Icons */
 
 ul.icons {
@@ -2744,14 +2777,14 @@ input[type="submit"].primary:hover,
 input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 .button.primary:hover {
-  background-color: #5ed0b1;
+  background-color: #021caf;
 }
 
 input[type="submit"].primary:active,
 input[type="reset"].primary:active,
 input[type="button"].primary:active,
 .button.primary:active {
-  background-color: #39c29d;
+  background-color: #021caf;
 }
 
 input[type="submit"].disabled,
@@ -2921,6 +2954,10 @@ input[type="button"]:disabled,
   border-top: solid 2px #a0a0a0;
   display: block;
   padding: 0;
+}
+
+#header > nav ul li:hover {
+  background-color: #2f2f61;
 }
 
 #header > nav ul li a {
